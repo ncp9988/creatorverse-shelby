@@ -1,0 +1,98 @@
+/* Container for all cards */
+.card-container {
+    margin: 10px; /* Margin around each card */
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    gap: 20px; /* Space between cards */
+    justify-content: flex-start; /* Align cards to the left by default */
+    margin: 20px 0; /* Margin around the container */
+}
+
+/* Individual card */
+.card {
+    width: calc(50% - 20px); /* Adjust width to fit two cards per row with space between */
+    max-width: 450px; /* Optional: set a max width if needed */
+    margin: 20px; /* Margin around each card */
+    padding: 20px;
+    background-size: cover; /* Cover the entire card with the image */
+    border-radius: 3px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+    overflow: hidden; /* Ensure contents don't overflow the card */
+    color: white; /* Ensure text color is white */
+}
+
+/* Flex container for icon alignment in the card */
+.card h2 {
+    display: flex;
+    justify-content: space-between; /* Space between the two icon containers */
+    align-items: center; /* Vertically center the items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Flex container for icons on the right side */
+.icon-right {
+    display: flex;
+    gap: 8px; /* Space between icons */
+    font-size: 0.8em; /* Increase icon size */
+}
+
+/* Flex container for icons on the left side */
+.icon-left {
+    display: flex;
+    justify-content: left; /* Align icons to the left */
+    gap: 8px; /* Space between icons */
+    font-size: 1.8em; /* Increase icon size */
+}
+.icon-right .icon,
+.icon-left .icon {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5)); /* Apply drop shadow to icons */
+}
+
+/* Style for each icon */
+.icon {
+    font-size: 1em; /* Base icon size */
+    cursor: pointer;
+    color: #fff; /* White color for icons */
+}
+
+/* Icon hover effect */
+.icon:hover {
+    color: #cccccc; /* Lighter color on hover */
+}
+
+/* Description styling */
+.description {
+    margin: 20px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Ensure text is readable */
+.card p {
+    color: #fff; /* White text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.7); /* Stronger shadow for contrast */
+    font-size: 1em; /* Adjust font size as needed */
+}
+
+.card h2 {
+    color: #307bcc; /* Blue text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Stronger shadow for contrast */
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Adjust font size as needed */
+    font-weight: bold; /* Bold font */
+}
+
+/* Center the last card if it’s alone on the row */
+.card-container::after {
+    content: '';
+    flex: auto;
+}
+
+/* Adjust last card to be centered if it's the only one in a row */
+.card:nth-child(2n+1) {
+    margin-left: auto;
+    margin-right: auto;
+}

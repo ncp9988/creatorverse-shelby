@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header-container {
+    background-image: url('../../public/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    padding: 20px;
+    width: 100%;
+    color: #efe7e7;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.header-buttons .view-button,
+.header-buttons .add-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #307bcc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.header-buttons .view-button:hover,
+.header-buttons .add-button:hover {
+    background-color: #0056b3;
+}
