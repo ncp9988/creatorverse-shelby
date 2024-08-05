@@ -7,8 +7,6 @@ Creatorverse is a web application for managing content creators. It allows users
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 - [Screenshots](#screenshots)
 
 ## Installation
