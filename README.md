@@ -31,4 +31,4 @@ npm install
 npm start
 ```
 ### Screenshot
-  ![Screenshot](https://github.com/ncp9988/creatororverse-shelby/public/photo.png)
+  ![Screenshot](https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)
