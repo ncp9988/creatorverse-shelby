@@ -26,12 +26,12 @@ The following **optional** features are implemented:
 - [x] An image of each content creator is shown on their content creator card
 
 ### Screenshot
-  ![Screenshot][(https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)]
+  ![Screenshot][(https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-![Video Walkthrough](https://app.screencastify.com/v2/manage/videos/VNL582q0kp9HaEGz7DrT](https://drive.google.com/file/d/1FI9NA8hd5v__BC2AfbCGm_Qys0ugJrxb/view)
+![Video Walkthrough][(https://app.screencastify.com/v2/manage/videos/VNL582q0kp9HaEGz7DrT](https://drive.google.com/file/d/1FI9NA8hd5v__BC2AfbCGm_Qys0ugJrxb/view)
 
 GIF created with Screencastify [GIF tool here](https://www.screencastify.com/)
 
