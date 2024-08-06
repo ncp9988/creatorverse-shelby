@@ -1,32 +1,49 @@
-# creatorverse-shelby
+# WEB103 Prework - *Creatorverse*
 
-Creatorverse is a web application for managing content creators. It allows users to view, add, edit, and delete creator information.
+Submitted by: **Shelby Vo**
 
-## Table of Contents
+About this web app: **Creatorverse is a web application for managing content creators, allowing users to view, add, edit, and delete creator information.**
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Screenshots](#screenshots)
+Time spent: **X** hours
 
-## Installation
+## Required Features
 
-1. **Clone the repository:**
-```bash
+The following **required** functionality is completed:
 
- git clone https://github.com/ncp9988/creatorverse-shelby.git
-   cd creatorverse-shelby 
-   ```
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-2. **Install dependencies:**
-```bash
-npm install
-```
+The following **optional** features are implemented:
+
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
 
 
-4. **Run the app:**
-```bash
-npm start
-```
-### Screenshot
-  ![Screenshot](https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+![Video Walkthrough](https://app.screencastify.com/v2/manage/videos/VNL582q0kp9HaEGz7DrT)
+
+GIF created with Screencastify [GIF tool here](https://www.screencastify.com/)
+
+## Notes
+
+Challenges included ensuring responsive and appealing CSS without external libraries and setting up React for state management and API integration effectively. Recording a walkthrough video was challenging due to file size limits. I used Screencastify to capture the demo, and for creating GIF
+
+## License
+
+Copyright [2024] Shelby Vo
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
