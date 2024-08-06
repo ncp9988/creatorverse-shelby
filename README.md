@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 - [x] An image of each content creator is shown on their content creator card
 
 ### Screenshot
-  ![Screenshot](https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)
+  ![Screenshot][(https://github.com/ncp9988/creatorverse-shelby/blob/main/public/photo.png)]
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
